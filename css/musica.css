@@ -125,17 +125,55 @@ img.facebook{
   border-radius: 5px 5px 0 0;
 }
 
-.articulo {
+article{
+	margin: 1em auto
+}
+.articulo, .buscar {
 	margin: 1em auto;
 }
 
-.row.comments {
-	margin-left: 0;
-	margin-right: 0;
-}
+
 
 .articulo img{
 	margin: auto;
+}
+
+.input-group{
+			margin-right: 15px;
+
+	}
+	.comments .input-group-addon{
+	font-size: 9vmin;
+	border: none;
+	background: white;
+	}
+
+	textarea.form-control {
+		height: auto;
+		min-height: 10vmin;
+		border-radius: 5px !important;
+	}
+
+
+/******* Panel Buscar**************/
+.buscar .list-group{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.buscar .list-group{
+text-transform: capitalize;
+}
+
+
+/**********Footer***************/
+footer {
+	background: #c4233b;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	float: left;
+	width: 100%;
 }
 
 @media(min-width:1024px){
@@ -149,13 +187,13 @@ img.facebook{
 
 }
 @media(min-width:768px){
-	textarea.form-control {
-	height: auto;
-	min-height: 20vmin;
-	}
 	.row.comments{
 		margin-right: 0;
 		margin-top: 0;
+	}
+
+	.input-group {
+		margin-right: 0;
 	}
 
 	.socialmedia {
