@@ -1,6 +1,6 @@
 body{
   background: url(../img/gastronomia/background.jpg);
-  background-position: top;
+  background-position: bottom left;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -52,45 +52,21 @@ div[class*="panel"]{
 margin: 1em auto
 }
 
-
 .comments {
-	background: rgba(131, 115, 70, 0.2) !important;
-	padding: 0.5em 1em;
-	border-collapse: separate;
-	border-spacing: 0;
-	padding: 0;
-}
-
-.comments {
-	/* background: rgba(89, 74, 30, 0.2) !important; */
+	background: rgba(89, 74, 30, 0.2) !important;
 	padding: 0.5em 1em;
 	border-collapse: separate;
 	border-spacing: 0px;
-	padding: 0;
-}
-
-table.comments td, table.comments tbody, table.comments tr {
-	background: transparent !important;
-	background-color: transparent;
-}
-table{
-  border-radius: 5px;
-  box-shadow: 0 1px 1px rgba(0,0,0,.25)
-}
-
-table tr {
-	box-shadow: 0px 2px 1px rgba(0,0,0,.3);
-}
-table.comments td:first-child {
-	width: 60px;
-}
-table.comments p{
-  margin:0
+	border-radius: 5px;
+	box-shadow: 0 1px 1px rgba(0,0,0,.25);
+	min-height: 60px;
+	vertical-align: middle;
+	margin: 0.5em auto;
 }
 
 .comments img {
-	width: 41px;
+	height: 60px;
 	background: white;
 	border-radius: 50%;
-		padding: 2px;
+	padding: 2px;
 }

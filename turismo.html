@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <!--Importar la fuente de los íconos de Google-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Importar la hojas de estilos de materialize css-->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/turismo.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <title>Contenedores y Sistema de Rejilla</title>
+</head>
+<body>
+  <div class="row">
+    <div class="s12 col amber darken-3 barra-superior">
+      <div class="row">
+        <div class="col l5 m8 s12">
+          <img class="logo left"src="img/browser.png" alt="">
+          <div class="input-field col left input-search">
+            <input id="search" type="text" class="white-color">
+            <i class="material-icons prefix">search</i>
+          </div>
+        </div>
+        <div class="col l4 m4 offset-l3 offset-m3 hide-on-small icon-holder">
+          <a href="#" class="btn-floating blue darken-3 white-text"><i class="material-icons">markunread</i></a>
+          <a href="#" class="btn-floating blue darken-3 white-text"><i class="material-icons">message</i></a>
+          <a href="#" class="btn-floating blue darken-3 white-text"><i class="material-icons">notifications_none</i></a>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="s2 m2 l2 col blue-grey lighten-5 columna-grupos push-s10">
+      <div class="collection">
+        <a class="collection-item avatar">
+          <img src="img/hombre.png" class="circle" alt="img1">
+          <span class="title hide-on-med-and-down">Luis Marquez</p>
+            <p class="title hide-on-med-and-down">Action </p>
+          </a>
+
+
+          <a class="collection-item avatar">
+            <img src="img/mujer.png" class="circle" alt="img1">
+            <span class="title hide-on-med-and-down">Gabriela Trujillo</span>
+            <p class="title hide-on-med-and-down">Js Css </p>
+          </a>
+
+          <a class="collection-item avatar">
+            <img src="img/mujer.png" class="circle left collection-icon" alt="img1">
+            <p class="title hide-on-med-and-down">Andrea Trujillo</p>
+            <p class="title hide-on-med-and-down" >Js Css </p>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="s10 m7 l7 col white columna-principal pull-s2 z-depth-1">
+        <div class="row">
+          <div class="s12 m12 l8 col white columna-publicaciones ">
+            <div class="col l12 m12 s12 card amber lighten-5" id="nueva_pub">
+              <div class="card-content">
+                <p>Escribe una nueva publicación</p>
+                <form >
+                  <textarea id="publicacion-texto"></textarea>
+                  <a href="#" class="waves-effect btn-floating blue darken-3 white-text"><i class="material-icons circle">edit</i></a>
+                  <a href="#" class="waves-effect btn-floating blue darken-3 white-text"><i class="material-icons circle ">mic</i></a>
+                  <a href="#" class="waves-effect btn-floating blue darken-3 white-text"><i class="material-icons">code</i></a>
+                  <button href="#" class="waves-effect btn-flat blue darken-3 white-text right hide-on-med-and-down"><i class="material-icons">send</i></button>
+                  <button href="#" class="waves-effect btn-floating blue darken-3 white-text right hide-on-med-and-up"><i class="material-icons">send</i></button>
+                </form>
+
+              </div>
+            </div>
+
+            <div class="col l12 m12 s12 card amber lighten-5 publicacion-1">
+              <div class="card-content blue-grey white-text">
+                <span class="card-title"> Mas informacion <i class="material-icons right activator waves-effect waves-block waves-light">more_vert</i></span>
+                <p> Descripcion del curso</p>
+              </div>
+              <div class="card-image">
+                <span class="card-title">Uso del Flex</span>
+                <video class="responsive-video" autoplay controls class="responsive-video media-element">
+                  <source src="media/vid1.mov" >
+                  </video>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title">Otro Titulo<i class="material-icons right">close</i></span>
+                  <p> Este es el contenido de la tarjeta </p>
+                </div>
+              </div>
+
+              <div class="col l12 m12 s12 card   amber lighten-5 publicacion-2">
+                <div class="card-content black darker-5 white-text  ">
+                  <span class="card-title"> Luis Marquez <i class="material-icons right activator waves-effect waves-block waves-light">more_vert</i></span>
+                  <p> Animator </p>
+                  <blockquote>Tradicionalmente un software departamental o incluso un ambicioso proyecto corporativo de gran envergadura es desarrollado en forma standalone, es decir, usando lenguajes ya sea compilados(C, C++, Delphi), semicompilados(.NET, Mono, Java), o interpretados (Python, PHP) para crear tanto la funcionalidad como toda la interfaz de los usuarios, pero cabe perfectamente un desarrollo orientado a web para dichos propósitos, siendo más homogéneo y multiplataforma, y </blockquote>
+                </div>
+                <div class="card-reveal black lighten-4 white-text">
+                  <span class="card-title">Otro Titulo<i class="material-icons right">close</i></span>
+                  <p class="flow-text">Desarrollo web es un término que define la creación de sitios web para Internet o una intranet. Para conseguirlo se hace uso de tecnologías de software del lado del servidor y del cliente que involucran una combinación de procesos de base de datos con el uso de un navegador web a fin de realizar determinadas tareas o mostrar información.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="l3 offset-l1 col white amber lighten-5 columna-news hide-on-med-and-down" id="col_news">
+              <h6 class="center-align">Últimas noticias</h6>
+
+              <div class="row col l12 m12 s12 noticia-1">
+                <p class="truncate">esta es la primera publicacion y el texto aparece con 3 puntos</p>
+                <img src="img/img1.jpg" alt="" class="responsive-img">
+              </div>
+
+              <div class="row col l12 m12 s12 noticia-2">
+                <p class="truncate">esta es la primera publicacion y el texto aparece con 3 puntos</p>
+                <img src="img/img2.jpg" alt="" class="responsive-img">
+              </div>
+
+              <div class="row col l12 m12 s12 noticia-3">
+                -<p class="truncate">esta es la primera publicacion y el texto aparece con 3 puntos</p>
+                <img src="img/img3.jpg" alt="" class="responsive-img">
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="m3 l3 col white columna-chat hide-on-small-only">
+          <div class="row">
+            <div class="s12 col white bloque-feed">
+
+              <ul class="collection with-header avatar">
+                <li class="collection-header blue-grey white-text"><h5>Actividades Recientes</h5></li>
+                <li class="collection-item avatar blue-grey white-text">
+                  <i class="material-icons circle blue">replay</i>
+                  <span class="title">Maria_Dev</span>
+                  <p>
+                    respondió tu pregunta
+                  </p>
+                </li>
+                <li class="collection-item avatar blue-grey white-text">
+                  <i class="material-icons circle green">person_add</i>
+                  <span class="title">CodigosOnline</span>
+                  <p>
+                    quiere agregarte como amigo
+                  </p>
+                </li>
+                <li class="collection-item avatar blue-grey white-text">
+                  <i class="material-icons circle yellow darken-3">help</i>
+                  <span class="title">WebRodrigo</span>
+                  <p>
+                    te hizo una pregunta
+                  </p>
+                </li>
+                <li class="collection-item avatar blue-grey white-text">
+                  <i class="material-icons circle purple">people</i>
+                  <span class="title">Grupo JavaScript</span>
+                  <p>
+                    hizo una publicación
+                  </p>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="s12 col bloque-chat">
+            <ul class="collection with-header">
+              <li class="collection-header grey lighten-1"><h5>Chat</h5></li>
+              <li class="collection-item grey lighten-1">
+                <div class="chip">
+                  <img src="img/img1.jpg" alt=""> Esto es una prueba
+                </div>
+              </li>
+
+
+              <li class="collection-item grey lighten-1">
+                <div class="chip">
+                  <img src="img/img1.jpg" alt=""> Esto es una prueba
+                </div>
+              </li>
+              <li class="collection-item grey lighten-1">
+                <div class="chip">
+                  <img src="img/img1.jpg" alt=""> Esto es una prueba
+                </div>
+              </li>
+              <li class="collection-item grey lighten-1">
+                <div class="chip">
+                  <img src="img/img1.jpg" alt=""> Esto es una prueba
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      <div class="fixed-action-btn click-to-toggle hidde-on-small-only" style="bottom:45px; right:90vw;">
+        <a href="#" class="btn-floating btn-large blue"><i class="material-icons">close</i></a>
+        <ul>
+          <li><a href="#" class="btn-floating red"><i class="material-icons">delete</i></a></li>
+          <li><a href="#" class="btn-floating green"><i class="material-icons">add</i></a></li>
+          <li><a href="#" class="btn-floating yellow"><i class="material-icons">delete</i></a></li>
+          <li><a href="#" class="btn-floating purple"><i class="material-icons">add</i></a></li>
+        </ul>
+      </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
