@@ -1,0 +1,94 @@
+body{
+  background: url(../img/gastronomia/background.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Muli', sans-serif "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+}
+
+.contenedor{
+  background: rgba(165,42,42,.75)
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Lora', serif;
+}
+
+article{
+  border-radius: 10px;
+  padding: 2em;
+  background:orange;
+}
+img{
+  margin: auto;
+  width: 100%;
+}
+
+div[class*="panel"]{
+    padding: 2em;
+}
+.titulo-blog{
+  border-right: 1px solid white;
+}
+
+.title {
+	color: white;
+	line-height: 25px;
+	text-shadow: -2px 2px 2px rgba(0,0,0,.4);
+}
+
+.slogan{
+  color: gold;
+  text-shadow: -2px 2px 2px rgba(0,0,0,.4)
+}
+.white{
+  color: white;
+}
+.brown{
+  color: brown
+}
+
+.row.img{
+margin: 1em auto
+}
+
+
+.comments{
+	background: rgba(89, 74, 30, 0.2) !important;
+	border-bottom: #936248 solid 1px;
+	padding: 0.5em 1em;
+  border-collapse: separate;
+  border-spacing: 0;
+  padding: 0;
+}
+
+table.comments td, table.comments tbody, table.comments tr {
+	background: transparent !important;
+	background-color: transparent;
+}
+table{
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,.25)
+}
+
+table.comments td:first-child{
+  max-width: 30px;
+}
+table.comments p{
+  margin:0
+}
+.comments:first-child, table.comments:first-child{
+  	border-radius: 5px 5px 0 0;
+}
+.comments:last-child{
+  	border-radius: 0 0 5px 5px;
+    border-bottom: none;
+}
+
+.comments img {
+	width: 41px;
+	background: white;
+	border-radius: 50%;
+		padding: 2px;
+}
