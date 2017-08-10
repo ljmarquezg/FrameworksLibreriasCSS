@@ -15,11 +15,10 @@ h1,h2,h3,h4,h5,h6{
   font-family: 'Lora', serif;
 }
 
-article{
-  border-radius: 10px;
-  padding: 2em;
-  background:orange;
+.callout {
+background: orange
 }
+
 img{
   margin: auto;
   width: 100%;
@@ -54,13 +53,20 @@ margin: 1em auto
 }
 
 
-.comments{
-	background: rgba(89, 74, 30, 0.2) !important;
-	border-bottom: #936248 solid 1px;
+.comments {
+	background: rgba(131, 115, 70, 0.2) !important;
 	padding: 0.5em 1em;
-  border-collapse: separate;
-  border-spacing: 0;
-  padding: 0;
+	border-collapse: separate;
+	border-spacing: 0;
+	padding: 0;
+}
+
+.comments {
+	/* background: rgba(89, 74, 30, 0.2) !important; */
+	padding: 0.5em 1em;
+	border-collapse: separate;
+	border-spacing: 0px;
+	padding: 0;
 }
 
 table.comments td, table.comments tbody, table.comments tr {
@@ -72,18 +78,14 @@ table{
   box-shadow: rgba(0,0,0,.25)
 }
 
-table.comments td:first-child{
-  max-width: 30px;
+table tr {
+	box-shadow: 0px 2px 1px rgba(0,0,0,.3);
+}
+table.comments td:first-child {
+	width: 60px;
 }
 table.comments p{
   margin:0
-}
-.comments:first-child, table.comments:first-child{
-  	border-radius: 5px 5px 0 0;
-}
-.comments:last-child{
-  	border-radius: 0 0 5px 5px;
-    border-bottom: none;
 }
 
 .comments img {
