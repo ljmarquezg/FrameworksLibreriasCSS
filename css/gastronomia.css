@@ -4,7 +4,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  font-family: 'Muli', sans-serif "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Muli', sans-serif, "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
 }
 
@@ -75,7 +75,7 @@ table.comments td, table.comments tbody, table.comments tr {
 }
 table{
   border-radius: 5px;
-  box-shadow: rgba(0,0,0,.25)
+  box-shadow: 0 1px 1px rgba(0,0,0,.25)
 }
 
 table tr {
