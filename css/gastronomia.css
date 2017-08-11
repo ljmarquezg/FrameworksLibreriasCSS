@@ -15,7 +15,10 @@ h1,h2,h3,h4,h5,h6{
   font-family: 'Lora', serif;
 }
 
-.callout {
+.callout{
+   background: #840d0d
+}
+.callout.orange {
 background: orange
 }
 
@@ -69,4 +72,11 @@ margin: 1em auto
 	background: white;
 	border-radius: 50%;
 	padding: 2px;
+}
+
+.comments p{
+  height: 60px;
+  display: table-cell;
+  vertical-align: middle;
+  margin-bottom: 0
 }

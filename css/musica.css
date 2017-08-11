@@ -90,37 +90,57 @@ ul.nav.navbar-nav{
 /***********Social media Icons***********/
 .socialmedia {
 	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
+	float: none;
 }
-
-.socialmedia:first-child{
-	border-radius: 5px 0 0 5px;
+.btn-group.socialmedia .btn{
+	padding: 0
 }
-
-.socialmedia:last-child{
-	border-radius: 0 5px 5px 0;
-}
-
-a.social-icon img {
+a.social-icon {
 	display: inline-block;
 	height: 50px;
 }
-
-a.social-icon img:hover, a.social-icon img:active, a.social-icon img:focus{
-opacity: 0.8
+.btn-group{
+	display: table;
+}
+a.social-icon img {
+	width: 50px;
 }
 
-img.twitter{
-   background: rgb(0, 172, 237);
+.twitter{
+   background: rgba(0, 172, 237,1);
+	 border: 1px solid rgba(0, 172, 237,1);
 }
-img.instagram{
-  background:rgb(82,128,164)
+.instagram {
+	background: rgba(82,128,164,1);
+	border: 1px solid rgba(82,128,164,1);
 }
-img.youtube{
-  background: red;
+.youtube{
+  background: rgba(255,0,0,1);
+	border: 1px solid rgba(255,0,0,1);
 }
-img.facebook{
-  background: #2e4da7;
+.facebook{
+  background: rgba(46,77,167,1);
+	border: 1px solid rgba(46,77,167,1);
+}
+
+.twitter:hover{
+   background: rgba(0, 172, 237,0.75);
+	 border: 1px solid rgba(0, 172, 237,0.75);
+}
+.instagram:hover{
+  background:rgba(82,128,164,0.9);
+	border: 1px solid rgba(82,128,164,0.9)
+}
+.youtube:hover{
+  background: rgba(255,0,0,.75);
+	border: 1px solid rgba(255,0,0,.75);
+}
+.facebook:hover{
+  background: rgb(46,77,167,0.9);
+	border: 1px solid rgba(46,77,167,0.9);
 }
 
 
@@ -146,6 +166,7 @@ article{
 			margin-right: 15px;
 
 	}
+
 	.comments .input-group-addon{
 	font-size: 9vmin;
 	border: none;
