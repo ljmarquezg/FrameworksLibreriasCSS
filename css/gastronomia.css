@@ -27,9 +27,6 @@ img{
   width: 100%;
 }
 
-div[class*="panel"]{
-    padding: 2em;
-}
 .titulo-blog{
   border-right: 1px solid white;
 }
