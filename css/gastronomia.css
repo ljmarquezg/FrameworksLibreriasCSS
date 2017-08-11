@@ -1,0 +1,79 @@
+body{
+  background: url(../img/gastronomia/background.jpg);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Muli', sans-serif, "Helvetica Neue",Helvetica,Arial;
+  font-size: 14px;
+}
+
+.contenedor{
+  background: rgba(165,42,42,.75)
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Lora', serif;
+}
+
+.callout{
+   background: #840d0d
+}
+.callout.orange {
+background: orange
+}
+
+img{
+  margin: auto;
+  width: 100%;
+}
+
+.titulo-blog{
+  border-right: 1px solid white;
+}
+
+.title {
+	color: white;
+	text-shadow: -2px 2px 2px rgba(0,0,0,.4);
+}
+
+.slogan{
+  color: gold;
+  text-shadow: -2px 2px 2px rgba(0,0,0,.4);
+  margin-top:-15px;
+}
+.white{
+  color: white;
+}
+.brown{
+  color: brown
+}
+
+.row.img{
+margin: 1em auto
+}
+
+.comments {
+	background: rgba(89, 74, 30, 0.2) !important;
+	padding: 0.5em 1em;
+	border-collapse: separate;
+	border-spacing: 0px;
+	border-radius: 5px;
+	box-shadow: 0 1px 1px rgba(0,0,0,.25);
+	min-height: 60px;
+	vertical-align: middle;
+	margin: 0.5em auto;
+}
+
+.comments img {
+	height: 60px;
+	background: white;
+	border-radius: 50%;
+	padding: 2px;
+}
+
+.comments p{
+  height: 60px;
+  display: table-cell;
+  vertical-align: middle;
+  margin-bottom: 0
+}
