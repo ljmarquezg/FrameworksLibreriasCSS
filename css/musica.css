@@ -93,17 +93,21 @@ ul.nav.navbar-nav{
 	text-align: center;
 }
 
-.socialmedia a:first-child{
+.socialmedia:first-child{
 	border-radius: 5px 0 0 5px;
 }
 
-.socialmedia a:last-child{
+.socialmedia:last-child{
 	border-radius: 0 5px 5px 0;
 }
 
 a.social-icon img {
 	display: inline-block;
 	height: 50px;
+}
+
+a.social-icon img:hover, a.social-icon img:active, a.social-icon img:focus{
+opacity: 0.8
 }
 
 img.twitter{
